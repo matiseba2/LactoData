@@ -1,0 +1,11 @@
+﻿variable,descripcion,unidad,n,cobertura_%,industrias,desde,hasta,p05,mediana,p95,media,desvio,cv_%,amplitud_estacional_%,derivada_de,referencia
+grasa,Materia grasa,g/100 g,484167,100.0,10,2015-09,2026-09,3.22,3.7,4.24,3.717,0.39,10.5,8.7,,
+proteina,Proteína bruta,g/100 g,484167,100.0,10,2015-09,2026-09,3.05,3.32,3.61,3.32,0.174,5.2,6.4,,
+lactosa,Lactosa,g/100 g,484127,100.0,10,2015-09,2026-09,4.55,4.83,5.07,4.822,0.164,3.4,1.9,,
+solidos_no_grasos,Sólidos no grasos (extracto seco magro),g/100 g,484007,100.0,10,2015-09,2026-09,8.39,8.9,9.36,8.887,0.3,3.4,2.8,,
+solidos_totales,Sólidos totales (extracto seco total),g/100 g,484129,100.0,10,2015-09,2026-09,11.76,12.59,13.49,12.604,0.564,4.5,4.4,grasa + solidos_no_grasos,
+celulas_somaticas,Recuento de células somáticas; indicador de mastitis,miles/mL,389492,80.4,10,2016-09,2026-09,196.0,427.0,938.0,483.9,285.575,59.0,34.3,,umbral de mastitis subclínica en torno a 200-400
+crioscopia,Descenso crioscópico; detecta aguado. Unificado a °C y signo negativo,°C,483331,99.8,10,2015-09,2026-09,-0.549,-0.533,-0.515,-0.533,0.011,2.0,0.8,,"CAA: hasta -0,512 °C; por encima sugiere agregado de agua"
+mun,"Nitrógeno ureico en leche (MUN); refleja el balance proteína/energía de la dieta. En los .txt viene rotulado 'urea' pero es MUN: urea_total / mun = 2,144",mg/dL,412435,85.2,10,2015-09,2026-09,11.09,16.01,21.86,16.178,3.388,20.9,13.1,,rango nutricional habitual 10-18; refleja el balance proteína/energía
+urea_total,Urea total. Solo en los informes .xls,mg/dL,249103,51.4,10,2015-09,2026-09,23.92,34.18,46.76,34.623,7.245,20.9,13.0,"mun x 2,144 (factor 60/28)",
+rbt,Recuento bacteriano total (UFC en los .txt),miles UFC/mL,473746,97.8,10,2015-09,2026-09,15.0,48.0,993.0,1291.862,7467.846,578.1,46.7,,leche de primera calidad por debajo de 100

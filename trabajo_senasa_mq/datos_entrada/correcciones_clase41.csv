@@ -1,0 +1,4 @@
+﻿Identificador,campo,antes,despues,motivo
+MO-02210-01,Resultado Humedad g/ 100g (*),4548,"45,48","error de tipeo: falta la coma decimal (queso, humedad imposible > 100)"
+MQ-32694-01,Resultado Lactosa g /100g (*),"124,3",,"error de carga: lactosa > 100 en un suero; podría ser 12,43 pero no se puede saber, se anula"
+MQ-15026-02,desc_familia,manteca / crema,queso,"CREMOSO DOBLE CREMA es un queso cremoso, no manteca / crema"
